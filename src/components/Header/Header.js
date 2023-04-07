@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import green from '@material-ui/core/colors/green';
-import purple from '@material-ui/core/colors/purple';
+
 import categories from '../../data/category';
 import { createTheme, MenuItem, TextField, ThemeProvider } from '@material-ui/core'
 export const Header = ({ category, setCategory,word,setWord }) => {
